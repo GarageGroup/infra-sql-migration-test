@@ -13,7 +13,7 @@ jobs:
 
     - name: Run migrations
       id: run-migrations
-      uses: actions/sql-migration@v1
+      uses: actions/sql-migration@v0.0.1
       with:
         connection-string: ${{ secrets.DB_MIGRATION_CONNECTION_STRING }}
         config-path: 'db/migrations.yaml'
