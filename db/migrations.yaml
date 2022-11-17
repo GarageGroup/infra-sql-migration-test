@@ -1,0 +1,15 @@
+migrations:
+- id: v1.0.0.1
+  path: migrations/changelog.v1.0.0/create-country.sql
+  comment: Create country tables
+
+- id: v1.0.0.2
+  path: migrations/changelog.v1.0.0/create-city.sql
+  comment: Create city tables
+
+- id: v1.0.0.3
+  path: migrations/changelog.v1.0.0/create-area.sql
+  comment: Create area tables
+
+- id: v1.0.0.4
+  path: migrations/changelog.v1.0.0/create-property-type.sql

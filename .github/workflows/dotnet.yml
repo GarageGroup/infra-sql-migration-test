@@ -1,0 +1,24 @@
+name: .NET
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 7.0.x
+        include-prerelease: false
+
+    - name: Run migrations
+      id: run-migrations
+      uses: GGrouppFoundation/infra-sql-migration-actionv0.0.1-build.1
+      with:
+        connection-string: ${{ secrets.DB_MIGRATION_CONNECTION_STRING }}
+        config-path: 'db/migrations.yaml'
