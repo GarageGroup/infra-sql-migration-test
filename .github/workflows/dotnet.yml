@@ -18,7 +18,8 @@ jobs:
 
     - name: Run migrations
       id: run-migrations
-      uses: GGrouppFoundation/infra-sql-migration-actionv0.0.1-build.1
+      uses: actions/gg-sql-migration-action@v2
       with:
         connection-string: ${{ secrets.DB_MIGRATION_CONNECTION_STRING }}
         config-path: 'db/migrations.yaml'
+        timeout: 00:05:00
