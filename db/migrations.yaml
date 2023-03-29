@@ -1,15 +1,28 @@
 migrations:
-- id: v1.0.0.1
-  path: migrations/changelog.v1.0.0/create-country.sql
-  comment: Create country tables
+  - id: v1.0.0.1
+    filePath: migrations/changelog.v1.0.0/create-country.sql
+    comment: Create country tables
 
-- id: v1.0.0.2
-  path: migrations/changelog.v1.0.0/create-city.sql
-  comment: Create city tables
+  - id: v1.0.0.2
+    filePath: migrations/changelog.v1.0.0/create-city.sql
+    comment: Create city tables
 
-- id: v1.0.0.3
-  path: migrations/changelog.v1.0.0/create-area.sql
-  comment: Create area tables
+  - id: v1.0.0.3
+    filePath: migrations/changelog.v1.0.0/create-area.sql
+    comment: Create area tables
 
-- id: v1.0.0.4
-  path: migrations/changelog.v1.0.0/create-property-type.sql
+  - id: v1.0.0.4
+    filePath: migrations/changelog.v1.0.0/create-property-type.sql
+    comment: Create property type tables
+
+  - id: v1.0.0.5
+    filePath: migrations/changelog.v1.0.0/create-project.sql
+    comment: Create project tables
+
+  - id: v1.0.0.6
+    filePath: migrations/changelog.v1.0.0/create-property.sql
+    comment: Create property tables
+
+  - id: v1.0.0.7
+    filePath: migrations/changelog.v1.0.0/create-picture.sql
+    comment: Create picture tables
