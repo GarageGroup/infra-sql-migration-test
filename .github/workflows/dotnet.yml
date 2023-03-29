@@ -13,7 +13,7 @@ jobs:
 
     - name: Run migrations
       id: run-migrations
-      uses: GGrouppFoundation/infra-sql-migration@v0.0.2
+      uses: GGrouppFoundation/infra-sql-migration@v0.0.4
       with:
         connection-string: ${{ secrets.DB_MIGRATION_CONNECTION_STRING }}
         config-path: 'db/migrations.yaml'
