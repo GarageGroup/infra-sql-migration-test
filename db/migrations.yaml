@@ -1,28 +1,24 @@
 migrations:
   - id: v1.0.0.1
-    filePath: migrations/changelog.v1.0.0/create-country.sql
-    comment: Create country tables
+    filePath: migrations-bi/changelog.v1.0.0/create-lead.sql
+    comment: Create Lead table
 
   - id: v1.0.0.2
-    filePath: migrations/changelog.v1.0.0/create-city.sql
-    comment: Create city tables
+    filePath: migrations-bi/changelog.v1.0.0/create-agent-for-opportunity.sql
+    comment: Create AgentForOpportunity table
 
   - id: v1.0.0.3
-    filePath: migrations/changelog.v1.0.0/create-area.sql
-    comment: Create area tables
+    filePath: migrations-bi/changelog.v1.0.0/create-sales-for-opportunity.sql
+    comment: Create SalesForOpportunity table
 
   - id: v1.0.0.4
-    filePath: migrations/changelog.v1.0.0/create-property-type.sql
-    comment: Create property type tables
+    filePath: migrations-bi/changelog.v1.0.0/create-deal.sql
+    comment: Create Deal table
 
   - id: v1.0.0.5
-    filePath: migrations/changelog.v1.0.0/create-project.sql
-    comment: Create project tables
+    filePath: migrations-bi/changelog.v1.0.0/create-property-for-deal.sql
+    comment: Create PropertyForDeal table
 
   - id: v1.0.0.6
-    filePath: migrations/changelog.v1.0.0/create-property.sql
-    comment: Create property tables
-
-  - id: v1.0.0.7
-    filePath: migrations/changelog.v1.0.0/create-picture.sql
-    comment: Create picture tables
+    filePath: migrations-bi/changelog.v1.0.0/create-user.sql
+    comment: Create SystemUser table
