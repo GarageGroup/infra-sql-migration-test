@@ -1,2 +1,2 @@
-CREATE SCHEMA crm;
+CREATE SCHEMA [crm];
 GO
