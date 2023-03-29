@@ -1,28 +1,28 @@
 migrations:
   - id: v1.0.0.0
-    filePath: db/migrations/changelog.v1.0.0/create-schema.sql
+    filePath: db/changelog.v1.0.0/create-schema.sql
     comment: Create schema
 
   - id: v1.0.0.1
-    filePath: db/migrations/changelog.v1.0.0/create-lead.sql
+    filePath: db/changelog.v1.0.0/create-lead.sql
     comment: Create Lead table
 
   - id: v1.0.0.2
-    filePath: db/migrations/changelog.v1.0.0/create-agent-for-opportunity.sql
+    filePath: db/changelog.v1.0.0/create-agent-for-opportunity.sql
     comment: Create AgentForOpportunity table
 
   - id: v1.0.0.3
-    filePath: db/migrations/changelog.v1.0.0/create-sales-for-opportunity.sql
+    filePath: db/changelog.v1.0.0/create-sales-for-opportunity.sql
     comment: Create SalesForOpportunity table
 
   - id: v1.0.0.4
-    filePath: db/migrations/changelog.v1.0.0/create-deal.sql
+    filePath: db/changelog.v1.0.0/create-deal.sql
     comment: Create Deal table
 
   - id: v1.0.0.5
-    filePath: db/migrations/changelog.v1.0.0/create-property-for-deal.sql
+    filePath: db/changelog.v1.0.0/create-property-for-deal.sql
     comment: Create PropertyForDeal table
 
   - id: v1.0.0.6
-    filePath: db/migrations/changelog.v1.0.0/create-user.sql
+    filePath: db/changelog.v1.0.0/create-user.sql
     comment: Create SystemUser table
