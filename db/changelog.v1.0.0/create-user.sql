@@ -1,4 +1,4 @@
-CREATE TABLE SystemUser(
+CREATE TABLE crm.SystemUser(
     [CrmId] uniqueidentifier NOT NULL PRIMARY KEY,
     [CrmCreationTime] datetimeoffset NOT NULL DEFAULT SYSDATETIMEOFFSET(),
     [CrmModifiedTime] datetimeoffset NOT NULL DEFAULT SYSDATETIMEOFFSET(),

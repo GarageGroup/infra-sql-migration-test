@@ -1,4 +1,4 @@
-CREATE TABLE Deal(
+CREATE TABLE crm.Deal(
     [CrmId] uniqueidentifier NOT NULL PRIMARY KEY,
     [CrmCreationTime] datetimeoffset NOT NULL DEFAULT SYSDATETIMEOFFSET(),
     [CrmModifiedTime] datetimeoffset NOT NULL DEFAULT SYSDATETIMEOFFSET(),

@@ -1,4 +1,4 @@
-CREATE TABLE PropertyForDeal(
+CREATE TABLE crm.PropertyForDeal(
     [CrmId] uniqueidentifier NOT NULL PRIMARY KEY,
     [CrmCreationTime] datetimeoffset NOT NULL DEFAULT SYSDATETIMEOFFSET(),
     [CrmModifiedTime] datetimeoffset NOT NULL DEFAULT SYSDATETIMEOFFSET(),
